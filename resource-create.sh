@@ -7,7 +7,7 @@ source ~/admin-openrc || source /etc/kolla/admin-openrc.sh
 # PROVIDER NET
 
 openstack network create  --share --external \
-  --provider-physical-network provider \
+  --provider-physical-network physnet1 \
   --provider-network-type flat public-net
 
 # PROVIDER SUBNET
