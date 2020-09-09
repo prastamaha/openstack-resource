@@ -2,7 +2,7 @@
 
 # SOURCE ADMIN-OPENRC
 
-source ~/admin-openrc
+source ~/admin-openrc || source /etc/kolla/admin-openrc.sh
 
 # PROVIDER NET
 
