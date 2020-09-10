@@ -6,7 +6,7 @@
 
 Source to adminrc
 ```
-source ~/kolla-install/bin/activate
+source ~/kolla-venv/bin/activate
 source /etc/kolla/admin-openrc.sh
 ```
 
@@ -34,7 +34,7 @@ openstack subnet create --network public-net \
 
 Source to adminrc or tenant rc (if exists)
 ```
-source ~/kolla-install/bin/activate
+source ~/kolla-venv/bin/activate
 source /etc/kolla/admin-openrc.sh
 ```
 
