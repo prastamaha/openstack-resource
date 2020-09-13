@@ -61,8 +61,8 @@ openstack image create --disk-format qcow2 --container-format bare \
 
 # CREATE FLAVOR
 
-openstack flavor create --ram 512 --disk 5 --vcpus 1 --public small
-openstack flavor create --ram 1024 --disk 10 --vcpus 2 --public medium
+openstack flavor create --ram 1024 --disk 8 --vcpus 1 --public small
+openstack flavor create --ram 2048 --disk 10 --vcpus 2 --public medium
 
 # CREATE SEC GROUP
 
